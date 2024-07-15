@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.imgBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.imgBox img {
+    border: 2px solid lightgray;
+}
+
+@media (max-width:890px) {
+    .imgBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .imgBox img {
+        width: 100%;
+    }
+}
